@@ -22,7 +22,7 @@ namespace ClubMemebershipApplication.Views
         public void RunView()
         {
             CommonOutputFormat.ChangeFontColor(FontFormat.Sucess);
-            Console.WriteLine($"Hi {_user.FirstName}!!{Environment.NewLine}Welcome to the Cycling Club!!");
+            Console.WriteLine($"Hi {_user.FirstName}!!\nWelcome to the Cycling Club!!");
             CommonOutputFormat.ChangeFontColor(FontFormat.Default);
             Console.ReadKey();
 
